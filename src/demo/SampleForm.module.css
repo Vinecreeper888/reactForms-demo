@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #24036F;
+    border-radius: 1rem;
+    color: #ccc;
+    padding: 0px 5px;
+    
+}
+
+.submitButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-right: 15px;
+}
+
+button {   
+    background-color: #FEE300;
+    color: #000;
+}
+
+button:hover {
+    background-color: #000;
+    color: #FEE300;
+    border-color: #FEE300;
+}
+
+
+.formContainer {
+    margin: 1rem 1rem 0.5rem 1rem;
+    padding: 10px 10px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.inputFields {
+    padding: 5px 5px 10px 0px;
+    margin-right: 0px;
+}
+
+input {
+    margin-left: 1rem;
+    width: 50%;
+    padding: 5px;
+}
+
+input:focus {
+    outline: 5px solid #FEE300;
+}
+
+.errorText {
+    margin-top: 0;
+    color: red;
+}
